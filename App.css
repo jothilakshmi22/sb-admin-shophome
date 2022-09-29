@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 5px;
+  width: 300px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+
+button {
+  border: 1px solid black;
+  height: 2rem;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+.navcontainer {
+  height: 4rem;
+  background-color: whitesmoke;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.cart {
+  margin-left: auto;
+}
+.cartNo {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  padding: 5px;
+}
+.bg {
+  background: #000;
+  color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bg h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
